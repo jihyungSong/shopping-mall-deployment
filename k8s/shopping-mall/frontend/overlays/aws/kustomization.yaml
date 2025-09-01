@@ -22,5 +22,5 @@ patches:
 
 configMapGenerator:
 - name: frontend-config
-  literals:
-  - REACT_APP_API_URL=http://default-api-url.com
+  data:
+    REACT_APP_API_URL=http://default-api-url.com
